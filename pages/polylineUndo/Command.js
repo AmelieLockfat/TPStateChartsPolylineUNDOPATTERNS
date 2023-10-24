@@ -5,7 +5,7 @@ constructor(dessin,ligne)
     this._ligne=ligne
 }
 execute() {
-    this._dessin.add(this._line);
+    this._dessin.add(this._ligne);
 }
 
 undo() {
